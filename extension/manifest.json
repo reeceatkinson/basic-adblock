@@ -1,10 +1,10 @@
 {
     "name": "Crofton Protect",
     "version": "2.0",
-    "description": "The Crofton Shelf Shield Ad Blocker and virus protection",
+    "description": "The basic and open-source ad-block that lets you surf the web faster and safer",
     "permissions": ["webRequest", "webRequestBlocking", "<all_urls>", "browsingData"],
     "background": {
-        "scripts": ["background.js", "del.js"]
+        "scripts": ["background.js"]
     },
     "icons": {
         "16": "icons/logo_16x16.png",
